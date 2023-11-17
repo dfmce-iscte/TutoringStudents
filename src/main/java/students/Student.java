@@ -7,6 +7,7 @@ import java.util.TreeSet;
 
 import interfaces.IAppointment;
 import interfaces.IStudent;
+import interfaces.AppointmentComparator;
 
 public class Student extends UnicastRemoteObject implements IStudent {
 	
@@ -14,14 +15,17 @@ public class Student extends UnicastRemoteObject implements IStudent {
 
 	protected Student() throws RemoteException {
 		super();
-		this.student_appointments = new TreeSet<IAppointment>();
-		// pensar como passar a class do comparator
+		this.student_appointments = new TreeSet<IAppointment>(new AppointmentComparator());
 	}
 
 	@Override
 	public void appointment_available(Set<IAppointment> appointments) throws RemoteException {
-		// TODO Auto-generated method stub
-		
+		System.out.println();
+	}
+
+	@Override
+	public String to_string() throws RemoteException {
+		return "Student [student_appointments=" + student_appointments + "]";
 	}
 
 }

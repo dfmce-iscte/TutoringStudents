@@ -9,4 +9,6 @@ public interface ITeacher extends Remote {
 	public Set<IAppointment> check_availability() throws RemoteException;
 	
 	public void add_student_to_waiting_list(IStudent student) throws RemoteException;
+
+	public String to_string() throws RemoteException;
 }
