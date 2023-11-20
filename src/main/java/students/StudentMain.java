@@ -37,7 +37,6 @@ public class StudentMain {
                             IStudent is1 = s1;
                             entry.getKey().add_student_to_waiting_list(is1, "Math");
                         }
-                    
                     }
                     if (teachers != null) {
                         for (Map.Entry<ITeacher, Set<IAppointment>> entry : teachers.entrySet()) {
@@ -50,8 +49,6 @@ public class StudentMain {
                                 }
                             }
                         }
-                        
-                        
                     }
         
 
