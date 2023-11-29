@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//src/main/java/service/AppointmentsAvailable.java=UTF-8
+encoding//src/main/java/service/GustaveTutorService.java=UTF-8
+encoding//src/main/java/service/GustaveTutorServiceService.java=UTF-8
+encoding//src/main/java/service/GustaveTutorServiceServiceLocator.java=UTF-8
+encoding//src/main/java/service/GustaveTutorServiceSoapBindingStub.java=UTF-8
+encoding//src/main/java/service/ITeacherWithIAppointments.java=UTF-8
+encoding//src/main/java/service/StudentWaitingList.java=UTF-8
